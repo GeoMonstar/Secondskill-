@@ -13,6 +13,8 @@
 		858F94621F5D429B00C24FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858F94601F5D429B00C24FE7 /* Main.storyboard */; };
 		858F94641F5D429B00C24FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858F94631F5D429B00C24FE7 /* Assets.xcassets */; };
 		858F94671F5D429B00C24FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858F94651F5D429B00C24FE7 /* LaunchScreen.storyboard */; };
+		858F94711F5D42CF00C24FE7 /* JQTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 858F946F1F5D42CF00C24FE7 /* JQTableViewCell.m */; };
+		858F94721F5D42CF00C24FE7 /* JQTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 858F94701F5D42CF00C24FE7 /* JQTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		858F94631F5D429B00C24FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		858F94661F5D429B00C24FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		858F94681F5D429B00C24FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		858F946E1F5D42CF00C24FE7 /* JQTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQTableViewCell.h; sourceTree = "<group>"; };
+		858F946F1F5D42CF00C24FE7 /* JQTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQTableViewCell.m; sourceTree = "<group>"; };
+		858F94701F5D42CF00C24FE7 /* JQTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JQTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				858F945B1F5D429B00C24FE7 /* AppDelegate.m */,
 				858F945D1F5D429B00C24FE7 /* ViewController.h */,
 				858F945E1F5D429B00C24FE7 /* ViewController.m */,
+				858F946E1F5D42CF00C24FE7 /* JQTableViewCell.h */,
+				858F946F1F5D42CF00C24FE7 /* JQTableViewCell.m */,
+				858F94701F5D42CF00C24FE7 /* JQTableViewCell.xib */,
 				858F94601F5D429B00C24FE7 /* Main.storyboard */,
 				858F94631F5D429B00C24FE7 /* Assets.xcassets */,
 				858F94651F5D429B00C24FE7 /* LaunchScreen.storyboard */,
@@ -110,6 +118,7 @@
 				TargetAttributes = {
 					858F94531F5D429B00C24FE7 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7L2R245DH9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +148,7 @@
 			files = (
 				858F94671F5D429B00C24FE7 /* LaunchScreen.storyboard in Resources */,
 				858F94641F5D429B00C24FE7 /* Assets.xcassets in Resources */,
+				858F94721F5D42CF00C24FE7 /* JQTableViewCell.xib in Resources */,
 				858F94621F5D429B00C24FE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +162,7 @@
 			files = (
 				858F945F1F5D429B00C24FE7 /* ViewController.m in Sources */,
 				858F945C1F5D429B00C24FE7 /* AppDelegate.m in Sources */,
+				858F94711F5D42CF00C24FE7 /* JQTableViewCell.m in Sources */,
 				858F94591F5D429B00C24FE7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7L2R245DH9;
 				INFOPLIST_FILE = miaoShaTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miaoshaTest.www.miaoShaTest;
@@ -283,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7L2R245DH9;
 				INFOPLIST_FILE = miaoShaTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miaoshaTest.www.miaoShaTest;
@@ -309,6 +322,7 @@
 				858F946D1F5D429B00C24FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
